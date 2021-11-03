@@ -49,11 +49,38 @@
             .content {
                 padding: 15px;
             }
+            img {
+                width: 150px;
+                height: auto;
+                margin: 10px;
+            }
+            @media only screen and (max-width: 375px) {
+              img {
+                width: 100px;
+                height: auto;
+                margin: 10px;
+              }
+              h3 {
+                white-space: pre-line;
+                font-size: 15px;
+              }
+              h2 {
+                white-space: pre-line;
+                font-size: 20px;
+              }
+              h1 {
+                font-size: 40px;
+              }
+            }
         </style>
     </head>
     <body>
         <div class="container">
             <div class="content">
+                <div>
+                    <img src="./image/logoLCSlandingpage-01.png" alt="logo-1" />
+                    <img src="./image/logoLCSlandingpage-02.png" alt="logo-2" />
+                </div>
                 <h1>COMING SOON</h1>
                 <h2>
                     The 42<sup>nd</sup> ICS WORLD CONGRESS
